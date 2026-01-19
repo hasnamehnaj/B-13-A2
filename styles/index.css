@@ -124,6 +124,7 @@ hr {
 
 } 
  section {
+    padding-bottom: 80px;
    text-align: center; 
    margin-top: -50px;
    background-color: #1A0B2E;
@@ -133,10 +134,92 @@ hr {
     color: white; 
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 50px; 
     text-align: center;
 }
 .section .box {
     color: white;
+}
+
+.card{
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px; 
+    text-align: center;
+    
+
+}
+.card h1{
+    color: #00FF88;
+    margin-bottom: -40px;
+    
+}
+.card p{
+    color: #FFFFFF;
+    
+}
+
+.techwave-section{
+    background-color: #230E3D;
+}
+.techwave-section h2{
+    color: #FFFFFF;
+}
+.techwave-section-container>* {
+    border-radius: 40px;
+    background-color: rgb(53, 17, 101, 0.4);
+    border-style: none;
+    padding: 40px;
+    line-height: 40px;
+}
+.techwave-section-container{
+    margin: 40px 200px 0px 218px;
+}
+
+.techwave-section-container h6{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+.techwave-section h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF; 
+    text-align: center;
+    padding-top: 120px;
+}
+.techwave-section-container p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 16px;
+}
+.card-premium{
+    grid-area: card-premium;
+}
+.card-Mobile{
+    grid-area: card-Mobile;
+}
+.card-global{
+    grid-area: card-global;
+}
+.card-exclusive{
+    grid-area: card-exclusive;
+}
+.card-resources{
+    grid-area: card-resources;
+}
+.techwave-section-container{
+    gap: 30px;
+    padding: 40px;
+    display: grid;
+    grid-template-areas: 
+        "card-premium card-Mobile card-Mobile"
+        "card-premium card-global card-global"
+        "card-exclusive card-exclusive card-resources"
+    
+    ;
 }
 
