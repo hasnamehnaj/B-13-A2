@@ -16,6 +16,7 @@
 header{
     background-color: #1A0B2E; 
     padding-top: 16px;
+    
 }
 .logo {
     max-width: 1600px;
@@ -78,7 +79,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -250px;
+    margin-top: -250px; 
     margin-left: 300px;
 } 
 
@@ -86,7 +87,7 @@ hr {
     color: white;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 40px; 
 }
 .hero-section p{
     color: white;
@@ -98,6 +99,7 @@ hr {
 .btn{
     text-align: center;
     margin-top: 24px;
+    padding-bottom: 101px; 
 }
 .hero-primary-btn{
     color: white;
@@ -107,16 +109,12 @@ hr {
     border-radius: 25px;
     width: 201px;
     height: 44px;
-    /* text-align: center;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
+  
 }
 
 .hero-secondary-btn{
     color: #00FF88;
-    padding: 12px 20px;
+    padding: 12px 20px; 
     height: 44px;
     width: 147px;
     border-radius: 25px;
@@ -125,4 +123,20 @@ hr {
 
 
 } 
+ section {
+   text-align: center; 
+   margin-top: -50px;
+   background-color: #1A0B2E;
+   
+}
+.Box h1, p{
+    color: white; 
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.section .box {
+    color: white;
+}
 
