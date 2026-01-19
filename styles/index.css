@@ -10,7 +10,7 @@
     padding: 16px 12px;
     border: none;
     border-radius: 25px;
-    fon
+    
 }
 
 header{
@@ -80,6 +80,49 @@ hr {
     justify-content: center;
     margin-top: -250px;
     margin-left: 300px;
+} 
+
+.hero-section h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.hero-section p{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.btn{
+    text-align: center;
+    margin-top: 24px;
+}
+.hero-primary-btn{
+    color: white;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    width: 201px;
+    height: 44px;
+    /* text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.hero-secondary-btn{
+    color: #00FF88;
+    padding: 12px 20px;
+    height: 44px;
+    width: 147px;
+    border-radius: 25px;
+    background: none;
+    border-color: #00FF88;
 
 
 } 
+
