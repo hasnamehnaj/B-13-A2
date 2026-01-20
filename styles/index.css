@@ -162,6 +162,7 @@ hr {
 
 .techwave-section{
     background-color: #230E3D;
+    padding-bottom: 120px;
 }
 .techwave-section h2{
     color: #FFFFFF;
@@ -221,5 +222,114 @@ hr {
         "card-exclusive card-exclusive card-resources"
     
     ;
+}
+/* Featured Episodes */
+.hero-list{
+    max-width: 100%;
+    width: 1600px;
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+    text-align: start;
+    justify-items: center;
+}
+
+.hero-list h1 {
+    padding-top: 120px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero-list .list-section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px 120px 200px;
+}
+.hero-list .list-section .list-vedio{
+    width: 380px;
+    height: 440px;
+    border-radius: 24px;
+    background-color: rgb(53, 17, 101, 0.4);
+    border-style: none;
+    justify-content: center;
+
+} 
+
+.hero-list .list-section .card iframe{
+    border-radius: 24px 24px 0 0 ; 
+
+}
+.hero-list .list-section .list-vedio{
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Inter", sans-serif;
+    padding: 20px 24px 20px 24px;
+    color: #FFFFFF;
+    
+}
+.hero-list .list-section .list-vedio p,.host-list p{
+     line-height: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 16px;
+    padding: 0px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.hero-list .list-section .list-vedio h6,.host-list h6 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    padding: 20px 24px 20px 24px;
+    text-align: start;
+}
+.hero-list .list-section .list-vedio{
+    color: #00ff88;
+    font-size: 700;
+}
+
+
+.hero-content{
+    border-radius: 24px; 
+    background-color: rgb(53, 17, 101, 0.4);
+    border-style: none;
+    padding: 24px;
+    margin-top: 40px;
+    justify-items: center;
+    text-align: start;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 1200px;
+    height: 280px;
+}
+
+.host img{
+    height: 200px;
+    width: 200px;  
+}
+
+.card-link{
+    gap:8px;
+    margin-left: 18px;
+    display: flex;
+}
+.card-link .card{
+    border-width:1px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 12.5px;
+    height: 20px;
+    width: 20px;
+    border-color: #533C72;
+    
 }
 
